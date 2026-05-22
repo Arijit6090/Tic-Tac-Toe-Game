@@ -77,7 +77,7 @@ export const TicTacToe = () => {
         data = ["", "", "", "", "", "", "", "", ""];
         setCount(0);
         titleRef.current.innerHTML = `Tic Tac Toe Game In <span>React</span>`;
-        cell_array.map((e)=>{
+        cell_array.forEach((e)=>{
             e.current.innerHTML = "";
         })
     }
